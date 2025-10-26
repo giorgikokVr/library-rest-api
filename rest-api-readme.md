@@ -145,3 +145,16 @@ Authorization: Bearer <token>
 Response: 204 No Content
 (No response body)
 ```
+  ## Richardson Maturity Model                               
+  HATEOAS implemented (links in responses)
+  
+  ## Pagination                                              
+  All list endpoints support:                               
+  - `page` (default: 1)                                     
+  - `limit` (default: 20, max: 100)
+
+
+  ## Caching                                                 
+  - GET /books - Cache 5 minutes                            
+  - GET /books/{id} - Cache 10 minutes
+  - POST/PUT/DELETE - No cache                              
