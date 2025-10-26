@@ -35,3 +35,5 @@ a simple rest api for managing a book catalogue.
 - 401 - Unauthorized
 - 404 - Not Found
 - 500 - Server Error
+
+## VERSION 1.0
